@@ -1,0 +1,27 @@
+img{
+    margin:5px;
+}
+.container{
+    border-style:solid;
+    border-width:2px;
+    position:relative;
+    background-color:bisque;
+    height:4000px;
+}
+.p2{
+    /* position:relative; */
+    top:200px;
+    /* left:200px; */
+    /* right:170px; */
+    /* bottom:200px; */
+}
+.p3{
+    position:absolute;
+    top:50px;
+    /* left:90px; */
+    /* right:60px; */
+}
+.p1{
+    position:sticky;
+    top:20px;
+}
