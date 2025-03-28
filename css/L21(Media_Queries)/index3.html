@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display:flex;
+        background-color:rgb(188, 177, 177);
+        /* height:700px; */
+        flex-direction:row;
+        
+    }
+    .container1{
+        display:flex;
+        color:wheat;
+        /* height:500px; */
+        flex-direction:column;
+        border:solid 3px black;
+    }
+    .text1{
+        color:black;
+        border:solid 3px black;
+        height:100px;
+        margin:2px;
+        padding:3px;
+
+
+    }
+    .text2{
+        
+        border:solid 3px black;
+        height:100px;
+        margin:2px;
+        padding:3px;
+
+
+    }
+    .img{
+        border:solid 3px black;
+        margin:3px;
+    }
+    @media(min-width:500px){
+             .container{
+                flex-direction:column;
+             }
+    }
+    
+</style>
+<body>
+    <div class="container">
+        <div class="container1">
+        <div class="text1">I've drafted a blog for the Samsung Galaxy S25, highlighting its design, performance, AI-powered camera, battery life, and key features. Let me know if you’d like any modifications or additional sections!</div>
+        <div class="text2">The iPhone 16 Pro Max is set to redefine premium smartphones with its A18 Bionic chip, a stunning 6.9-inch ProMotion OLED display, and an upgraded periscope zoom camera. With a sleeker titanium design, AI-powered iOS 18 features, and an all-day battery, it’s the ultimate device for power users! 🚀</div></div>
+
+        <div class="img">
+            <img src="img.jpg" alt="img" style="width:500px"></img>
+        </div>
+    </div>
+</body>
+</html>

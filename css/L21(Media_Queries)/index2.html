@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .container{
+        display:flex;
+        flex-direction:row;
+        background-color:rgb(116, 116, 141);
+         height:700px;
+    }
+    .box1{
+        width:200px;
+        height:200px;
+        background-color:red;
+        border:solid 2px black;
+        text-align:center;
+        padding:1px;
+        margin:2px;
+
+    }
+    .box2{
+        width:200px;
+        height:200px;
+        background-color:green;
+        border:solid 2px black;
+        text-align:center;
+        padding:1px;
+        margin:2px;
+
+    }
+    .box3{
+        width:200px;
+        height:200px;
+        background-color:yellow;
+        border:solid 2px black;
+        text-align:center;
+        padding:1px;
+        margin:2px;
+
+    }
+    .box4{
+        width:200px;
+        height:200px;
+        background-color:purple;
+        border:solid 2px black;
+        text-align:center;
+        padding:1px;
+        margin:2px;
+
+
+    }
+    @media (max-width:500px){
+        .container{
+            flex-direction:column;
+        }
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box1">Hii</div>
+        <div class="box2">this</div>
+        <div class="box3">is</div>
+        <div class="box4">Utkarsh</div>
+    </div>
+</body>
+</html>

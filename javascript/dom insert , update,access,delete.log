@@ -1,0 +1,28 @@
+lecture11.js:4  Uncaught TypeError: Cannot read properties of null (reading 'insertAdjacentElement')
+    at lecture11.js:4:8
+[NEW] Explain Console errors by using Copilot in Edge: click
+         
+         to explain an error. 
+        Learn more
+        Don't show again
+let newElement = document.createElement('h3');
+let divTag = document.querySelector('#div2');
+newElement.textContent = "This is new Element";
+divTag.insertAdjacentElement('beforeend', newElement);
+VM2563:1 Uncaught SyntaxError: Identifier 'newElement' has already been declared
+let new=document.createElement('h3');
+VM2721:1 Uncaught SyntaxError: Unexpected token 'new'
+let n=document.createElement('h3');
+undefined
+n.textContent("This is new text");
+VM2923:1 Uncaught TypeError: n.textContent is not a function
+    at <anonymous>:1:3
+(anonymous) @ VM2923:1
+n.textContent="This is new text";
+'This is new text'
+let di=document.querySelector("#div2);
+VM3146:1 Uncaught SyntaxError: Invalid or unexpected token
+let divi=document.querySelector("#div2");
+undefined
+divi.insertAdjacentElement("beforebegin",n);
+<h3>​This is new text​</h3>​
